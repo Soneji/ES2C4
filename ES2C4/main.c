@@ -6,9 +6,19 @@
 //
 
 #include <stdio.h>
+#include <string.h>
+#include "Lab 1.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World! \n");
+    
+    printf("Hello, World!\n");
+    printf("=======================================================\n");
+    printf("||                                                   ||\n");
+    printf("||                      Lab 1                        ||\n");
+    printf("||                                                   ||\n");
+    printf("=======================================================\n");
+    
+    lab1();
+    
     return 0;
 }
