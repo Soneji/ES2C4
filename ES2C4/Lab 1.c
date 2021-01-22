@@ -12,9 +12,9 @@ int student_id;
 int lab1(){
     
     printf("This my code for Lab 1!\n");
-    printf("=======================================================\n");
+    printf("===========================\n");
     printf("Part A\n");
-    printf("=======================================================\n");
+    printf("===========================\n");
     
     // A) Declare 4 variables, initialise them with the data below and print them to the console
     {
@@ -34,9 +34,9 @@ int lab1(){
         float result = 9.f/5.f;
         printf("%g\n", result);
         
-    printf("=======================================================\n");
+    printf("===========================\n");
     printf("Part B\n");
-    printf("=======================================================\n");
+    printf("===========================\n");
     // b) Create a pointer for each of the variables above. Using the pointers, change the value of the variables above to the following:
         int* p_student_id = &student_id;
         char* p_first = &first;
@@ -58,9 +58,9 @@ int lab1(){
         printf("%g\n", result);
     }
     
-    printf("=======================================================\n");
+    printf("===========================\n");
     printf("Part C\n");
-    printf("=======================================================\n");
+    printf("===========================\n");
     
     // c) Write a C program to:
     // (i) Compare two numbers and prints the larger number to the console. Print “Both
