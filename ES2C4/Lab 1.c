@@ -112,13 +112,15 @@ int lab1(){
     // the proceeding numbers in the array. The first number in the array should be 7.
     // Print all elements in the array.
     {
-        printf("\nFibonacci Array starting at 7\n");
-        int array[20];
+        printf("\nNot a Fibonacci Array starting at 7\n");
+        int array[20] = {0};
         int start = 7;
         array[0]=array[1]=start;
         
         for (int i = 2 ; i < 20 ; i++) {
-            array[i]=array[i-1]+array[i-2];
+            for (int j=0; j<i; j++) {
+                array[i]+=array[j];
+            }
         }
         
         for(int loop = 0; loop < (sizeof array/ sizeof array[0]) ; loop++)
