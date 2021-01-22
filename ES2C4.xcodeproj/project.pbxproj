@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		7F65066825B74D0500EB360D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F65066725B74D0500EB360D /* main.c */; };
 		7F65067125B74E5F00EB360D /* Lab 1.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F65067025B74E5F00EB360D /* Lab 1.c */; };
-		7F99069A25B7A86400925F2B /* Lab 2_guided.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F99069925B7A86400925F2B /* Lab 2_guided.c */; };
+		7F99069A25B7A86400925F2B /* Lab 2 Guided.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F99069925B7A86400925F2B /* Lab 2 Guided.c */; };
 		7F99069F25B7AF0800925F2B /* Lab 2.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F99069E25B7AF0800925F2B /* Lab 2.c */; };
+		7F9906AF25BB0FC100925F2B /* Lab 2 Functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F9906AE25BB0FC000925F2B /* Lab 2 Functions.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,10 +31,12 @@
 		7F65066725B74D0500EB360D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		7F65066F25B74E5F00EB360D /* Lab 1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab 1.h"; sourceTree = "<group>"; };
 		7F65067025B74E5F00EB360D /* Lab 1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Lab 1.c"; sourceTree = "<group>"; };
-		7F99069825B7A86400925F2B /* Lab 2_guided.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab 2_guided.h"; sourceTree = "<group>"; };
-		7F99069925B7A86400925F2B /* Lab 2_guided.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Lab 2_guided.c"; sourceTree = "<group>"; };
+		7F99069825B7A86400925F2B /* Lab 2 Guided.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab 2 Guided.h"; sourceTree = "<group>"; };
+		7F99069925B7A86400925F2B /* Lab 2 Guided.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Lab 2 Guided.c"; sourceTree = "<group>"; };
 		7F99069D25B7AF0800925F2B /* Lab 2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab 2.h"; sourceTree = "<group>"; };
 		7F99069E25B7AF0800925F2B /* Lab 2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Lab 2.c"; sourceTree = "<group>"; };
+		7F9906AD25BB0FC000925F2B /* Lab 2 Functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab 2 Functions.h"; sourceTree = "<group>"; };
+		7F9906AE25BB0FC000925F2B /* Lab 2 Functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Lab 2 Functions.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +71,11 @@
 			children = (
 				7F65066725B74D0500EB360D /* main.c */,
 				7F99069D25B7AF0800925F2B /* Lab 2.h */,
+				7F9906AD25BB0FC000925F2B /* Lab 2 Functions.h */,
+				7F9906AE25BB0FC000925F2B /* Lab 2 Functions.c */,
 				7F99069E25B7AF0800925F2B /* Lab 2.c */,
-				7F99069825B7A86400925F2B /* Lab 2_guided.h */,
-				7F99069925B7A86400925F2B /* Lab 2_guided.c */,
+				7F99069825B7A86400925F2B /* Lab 2 Guided.h */,
+				7F99069925B7A86400925F2B /* Lab 2 Guided.c */,
 				7F65066F25B74E5F00EB360D /* Lab 1.h */,
 				7F65067025B74E5F00EB360D /* Lab 1.c */,
 			);
@@ -133,10 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F99069A25B7A86400925F2B /* Lab 2_guided.c in Sources */,
+				7F99069A25B7A86400925F2B /* Lab 2 Guided.c in Sources */,
 				7F99069F25B7AF0800925F2B /* Lab 2.c in Sources */,
 				7F65067125B74E5F00EB360D /* Lab 1.c in Sources */,
 				7F65066825B74D0500EB360D /* main.c in Sources */,
+				7F9906AF25BB0FC100925F2B /* Lab 2 Functions.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

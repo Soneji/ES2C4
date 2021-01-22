@@ -5,8 +5,8 @@
 //  Created by Dhaval Soneji on 19/01/2021.
 //
 
-#ifndef Lab_2_guided_h
-#define Lab_2_guided_h
+#ifndef Lab_2_Guided_h
+#define Lab_2_Guided_h
 
 #include <stdio.h>
 int lab2_guided(void);

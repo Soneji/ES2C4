@@ -12,4 +12,13 @@
 
 int lab2(void);
 
+struct Dog {
+    char id[64];
+    char name[64];
+    int height;
+    int age;
+    char breed[64];
+};
+
+
 #endif /* Lab_2_h */
