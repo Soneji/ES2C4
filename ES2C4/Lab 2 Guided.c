@@ -5,7 +5,7 @@
 //  Created by Dhaval Soneji on 19/01/2021.
 //
 
-#include "Lab 2_guided.h"
+#include "Lab 2 Guided.h"
 
 int calcArea (int length, int width) {
     return length * width;

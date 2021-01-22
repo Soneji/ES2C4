@@ -7,47 +7,11 @@
 
 #include "Lab 2.h"
 #include <string.h>
+#include "Lab 2 Functions.h"
 
 // Lab 2
 // 3. Exercises
 // See PDF for full questions
-
-struct Dog {
-    char id[64];
-    char name[64];
-    int height;
-    int age;
-    char breed[64];
-};
-
-struct Dog createDog(char id[], char name[], int height, int age, char breed[]){
-    struct Dog dog;
-    strcpy(dog.id, id);
-    strcpy(dog.name, name);
-    dog.height = height;
-    dog.age = age;
-    strcpy(dog.breed, breed);
-    return dog;
-}
-
-void printDog(struct Dog *dog) {
-    printf("Name:   %s\n", dog->name);
-    printf("Height: %d\n", dog->height);
-    printf("Age:    %d\n", dog->age);
-    printf("Breed:  %s\n", dog->breed);
-}
-
-void changeAge(struct Dog *dog, int newAge) {
-    dog->age = newAge;
-}
-
-void changeName(struct Dog *dog, char newName[]) {
-    strcpy(dog->name, newName);
-}
-
-void changeBreed(struct Dog *dog, char newBreed[]) {
-    strcpy(dog->breed, newBreed);
-}
 
 int lab2() {
     
@@ -62,6 +26,7 @@ int lab2() {
     changeAge(&dogs[2], 10);
     changeBreed(&dogs[1], "Husky");
 
+    #ifdef I_WANT_TO_DISABLE_THIS_CODE_BECAUSE_IT_USES_SCANF_WHICH_IS_ANNOYING
     char input[64];
     printf("Please enter the ID of the dog you want to know about: ");
     scanf("%s", input);
@@ -72,8 +37,7 @@ int lab2() {
         }
         printf("Error 404: Dog not found\n");
     }
-    
-//    printDog(&dogs[1]);
+    #endif
     
     return  0;
 }
