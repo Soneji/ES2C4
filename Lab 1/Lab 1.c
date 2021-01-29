@@ -66,8 +66,7 @@ int lab1(){
     // (i) Compare two numbers and prints the larger number to the console. Print “Both
     // numbers are equal.” If the numbers are equal.
     
-    // remove the ifdef and endif if you want to run this part
-    #ifdef I_WANT_TO_DISABLE_THIS_CODE_BECAUSE_IT_USES_SCANF_WHICH_IS_ANNOYING
+    
     {
         printf("Code to compare two numbers and print larger number\n");
         float num1 = 0.0, num2 = 0.0;
@@ -84,7 +83,7 @@ int lab1(){
         else
             printf("%g\n", num2);
     }
-    #endif
+    
     // (ii) Find the sum of even numbers between 25 and 91 and prints the result.
     {
         int sum = 0;
