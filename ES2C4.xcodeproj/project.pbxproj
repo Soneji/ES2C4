@@ -91,6 +91,8 @@
 		7F65067025B74E5F00EB360D /* Lab 1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Lab 1.c"; sourceTree = "<group>"; };
 		7F73FC5925C4706C00BF96E7 /* Assessment 1 Task 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assessment 1 Task 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F73FC5B25C4706C00BF96E7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		7F73FC6625C471EB00BF96E7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		7F73FC6725C471EB00BF96E7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		7F99069825B7A86400925F2B /* Lab 2 Guided.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab 2 Guided.h"; sourceTree = "<group>"; };
 		7F99069925B7A86400925F2B /* Lab 2 Guided.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Lab 2 Guided.c"; sourceTree = "<group>"; };
 		7F99069D25B7AF0800925F2B /* Lab 2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab 2.h"; sourceTree = "<group>"; };
@@ -166,6 +168,8 @@
 		7F65065B25B74D0500EB360D = {
 			isa = PBXGroup;
 			children = (
+				7F73FC6725C471EB00BF96E7 /* .gitignore */,
+				7F73FC6625C471EB00BF96E7 /* README.md */,
 				7F65066625B74D0500EB360D /* Lab 1 */,
 				7FE3E46E25C44C37004E6A7F /* Lab 2 Guided */,
 				7FE3E48325C44C67004E6A7F /* Lab 2 */,
