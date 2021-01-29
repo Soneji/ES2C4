@@ -3,7 +3,7 @@
 //  Lab 3
 //
 //  Created by Dhaval Soneji on 29/01/2021.
-//
+//  https://www.geeksforgeeks.org/quick-sort/
 
 #include "Quick Sort.h"
 
