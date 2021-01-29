@@ -42,6 +42,7 @@ int lab2() {
     }
     
     #endif
+    printDog(&dogs[1]);
     
     return 0;
 }

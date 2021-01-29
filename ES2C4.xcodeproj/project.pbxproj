@@ -53,7 +53,7 @@
 		7F65065B25B74D0500EB360D = {
 			isa = PBXGroup;
 			children = (
-				7F65066625B74D0500EB360D /* ES2C4 */,
+				7F65066625B74D0500EB360D /* Lab 1 and 2 */,
 				7F65066525B74D0500EB360D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,7 +66,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F65066625B74D0500EB360D /* ES2C4 */ = {
+		7F65066625B74D0500EB360D /* Lab 1 and 2 */ = {
 			isa = PBXGroup;
 			children = (
 				7F65066725B74D0500EB360D /* main.c */,
@@ -79,7 +79,7 @@
 				7F65066F25B74E5F00EB360D /* Lab 1.h */,
 				7F65067025B74E5F00EB360D /* Lab 1.c */,
 			);
-			path = ES2C4;
+			path = "Lab 1 and 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
