@@ -13,11 +13,11 @@
 int lab2(void);
 
 struct Dog {
-    char id[64];
-    char name[64];
-    int height;
-    int age;
-    char breed[64];
+    char id[8];
+    char name[8];
+    unsigned int height;
+    unsigned int age;
+    char breed[32];
 };
 
 
