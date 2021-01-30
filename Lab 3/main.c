@@ -76,7 +76,7 @@ int main(int argc, const char * argv[]) {
         printf("Unsorted Array:       ");
         printArray(array, size);
         
-        quickSort(array, 0, size);
+        quickSort(array, 0, size-1);
         
         printf("Sorted Array:         ");
         printArray(array, size);
