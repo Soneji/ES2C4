@@ -13,6 +13,7 @@
 		7F65066825B74D0500EB360D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F65066725B74D0500EB360D /* main.c */; };
 		7F65067125B74E5F00EB360D /* Lab 1.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F65067025B74E5F00EB360D /* Lab 1.c */; };
 		7F73FC5C25C4706C00BF96E7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F73FC5B25C4706C00BF96E7 /* main.c */; };
+		7F73FC7525C5E9E900BF96E7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F73FC7425C5E9E900BF96E7 /* main.c */; };
 		7FE3E46125C44B47004E6A7F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3E46025C44B47004E6A7F /* main.c */; };
 		7FE3E47025C44C37004E6A7F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7FE3E46F25C44C37004E6A7F /* main.c */; };
 		7FE3E47A25C44C5D004E6A7F /* Lab 2 Guided.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F99069925B7A86400925F2B /* Lab 2 Guided.c */; };
@@ -41,6 +42,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		7F73FC5725C4706C00BF96E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		7F73FC7025C5E9E900BF96E7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -93,6 +103,8 @@
 		7F73FC5B25C4706C00BF96E7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		7F73FC6625C471EB00BF96E7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		7F73FC6725C471EB00BF96E7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
+		7F73FC7225C5E9E900BF96E7 /* Assessment 1 Task 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assessment 1 Task 2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F73FC7425C5E9E900BF96E7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		7F99069825B7A86400925F2B /* Lab 2 Guided.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab 2 Guided.h"; sourceTree = "<group>"; };
 		7F99069925B7A86400925F2B /* Lab 2 Guided.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Lab 2 Guided.c"; sourceTree = "<group>"; };
 		7F99069D25B7AF0800925F2B /* Lab 2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab 2.h"; sourceTree = "<group>"; };
@@ -123,6 +135,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7F73FC5625C4706C00BF96E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F73FC6F25C5E9E900BF96E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -176,6 +195,7 @@
 				7FE3E45F25C44B47004E6A7F /* Lab 3 Guided */,
 				7F51E19525C4519E00B87EB1 /* Lab 3 */,
 				7F73FC5A25C4706C00BF96E7 /* Assessment 1 Task 1 */,
+				7F73FC7325C5E9E900BF96E7 /* Assessment 1 Task 2 */,
 				7F65066525B74D0500EB360D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -189,6 +209,7 @@
 				7FE3E48225C44C67004E6A7F /* Lab 2 */,
 				7F51E19425C4519E00B87EB1 /* Lab 3 */,
 				7F73FC5925C4706C00BF96E7 /* Assessment 1 Task 1 */,
+				7F73FC7225C5E9E900BF96E7 /* Assessment 1 Task 2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,6 +230,14 @@
 				7F73FC5B25C4706C00BF96E7 /* main.c */,
 			);
 			path = "Assessment 1 Task 1";
+			sourceTree = "<group>";
+		};
+		7F73FC7325C5E9E900BF96E7 /* Assessment 1 Task 2 */ = {
+			isa = PBXGroup;
+			children = (
+				7F73FC7425C5E9E900BF96E7 /* main.c */,
+			);
+			path = "Assessment 1 Task 2";
 			sourceTree = "<group>";
 		};
 		7FE3E45F25C44B47004E6A7F /* Lab 3 Guided */ = {
@@ -295,6 +324,23 @@
 			productReference = 7F73FC5925C4706C00BF96E7 /* Assessment 1 Task 1 */;
 			productType = "com.apple.product-type.tool";
 		};
+		7F73FC7125C5E9E900BF96E7 /* Assessment 1 Task 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F73FC7825C5E9E900BF96E7 /* Build configuration list for PBXNativeTarget "Assessment 1 Task 2" */;
+			buildPhases = (
+				7F73FC6E25C5E9E900BF96E7 /* Sources */,
+				7F73FC6F25C5E9E900BF96E7 /* Frameworks */,
+				7F73FC7025C5E9E900BF96E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assessment 1 Task 2";
+			productName = "Assessment 1 Task 2";
+			productReference = 7F73FC7225C5E9E900BF96E7 /* Assessment 1 Task 2 */;
+			productType = "com.apple.product-type.tool";
+		};
 		7FE3E45D25C44B47004E6A7F /* Lab 3 Guided */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FE3E46425C44B47004E6A7F /* Build configuration list for PBXNativeTarget "Lab 3 Guided" */;
@@ -363,6 +409,9 @@
 					7F73FC5825C4706C00BF96E7 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					7F73FC7125C5E9E900BF96E7 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					7FE3E45D25C44B47004E6A7F = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -393,6 +442,7 @@
 				7FE3E45D25C44B47004E6A7F /* Lab 3 Guided */,
 				7F51E19325C4519E00B87EB1 /* Lab 3 */,
 				7F73FC5825C4706C00BF96E7 /* Assessment 1 Task 1 */,
+				7F73FC7125C5E9E900BF96E7 /* Assessment 1 Task 2 */,
 			);
 		};
 /* End PBXProject section */
@@ -422,6 +472,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F73FC5C25C4706C00BF96E7 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F73FC6E25C5E9E900BF96E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F73FC7525C5E9E900BF96E7 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,10 +580,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lgmp";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -575,9 +636,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-lgmp";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -611,6 +675,22 @@
 			name = Debug;
 		};
 		7F73FC5E25C4706C00BF96E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F73FC7625C5E9E900BF96E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F73FC7725C5E9E900BF96E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -701,6 +781,15 @@
 			buildConfigurations = (
 				7F73FC5D25C4706C00BF96E7 /* Debug */,
 				7F73FC5E25C4706C00BF96E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F73FC7825C5E9E900BF96E7 /* Build configuration list for PBXNativeTarget "Assessment 1 Task 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F73FC7625C5E9E900BF96E7 /* Debug */,
+				7F73FC7725C5E9E900BF96E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

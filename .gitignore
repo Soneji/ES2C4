@@ -1,2 +1,5 @@
-Assessment*
+*ssessment*
 *.exe
+.vscode/c_cpp_properties.json
+*.out
+factorial*
