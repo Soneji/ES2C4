@@ -1,5 +1,7 @@
 # ES2C4 C Programming Labs
 
+<img src="https://repository-images.githubusercontent.com/331056814/3af35300-6ef5-11eb-865b-c0fa9e259c6e">
+
 University of Warwick,
 School of Engineering,
 ES2C4,
