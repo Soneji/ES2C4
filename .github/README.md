@@ -8,7 +8,7 @@ ES2C4,
 C Programming Labs
 
 
-_Disclaimer_: If you are here to copy my answers I strongly recommend against it. If you are here because you are stuck on part of it, wish to compare answers, or just want to look for the bantz™, go wild 😉 [1]
+_Disclaimer_: If you are here to copy my answers I strongly recommend against it. If you are here because you are stuck on part of it, wish to compare answers, or just want to look for fun, go wild :) [1]
 
 
 
